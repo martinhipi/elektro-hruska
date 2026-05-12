@@ -3,9 +3,9 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Elektro Hruška – Elektroinstalace, zabezpečení a revize | Praha a okolí</title>
-<meta name="description" content="Elektro Hruška – komplexní služby v oblasti elektroinstalací, zabezpečovacích a kamerových systémů, revizí a hromosvodů. Spolehlivý řemeslník s 15letou praxí. Nezávazná poptávka zdarma." />
-<meta name="keywords" content="elektroinstalace, elektrikář, revize elektro, zabezpečovací systémy, kamerové systémy, hromosvody, datové rozvody, smart home, Praha, Středočeský kraj" />
+<title>Elektro Hruška – Elektroinstalace, zabezpečení a revize | Ústí nad Labem a okolí</title>
+<meta name="description" content="Elektro Hruška – elektroinstalace, zabezpečovací a kamerové systémy, revize a hromosvody v Ústí nad Labem a celém Ústeckém kraji. Spolehlivý řemeslník s 15letou praxí. Nezávazná poptávka zdarma." />
+<meta name="keywords" content="elektroinstalace, elektrikář, revize elektro, zabezpečovací systémy, kamerové systémy, hromosvody, smart home, Ústí nad Labem, Ústecký kraj, Teplice, Děčín" />
 <meta name="theme-color" content="#A4C73C" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -147,7 +147,7 @@ section{padding:clamp(64px,9vw,120px) 0;position:relative}
   top:50%;left:50%;transform:translate(-50%,-50%);z-index:-1;filter:blur(20px);
 }
 
-/* =============== LOGO BAR / STATS =============== */
+/* =============== STATS =============== */
 .stats{
   background:var(--ink);color:#fff;padding:50px 0;
   position:relative;overflow:hidden;
@@ -438,26 +438,6 @@ footer{background:var(--ink);color:#cfd5cf;padding:70px 0 30px;position:relative
 .foot-bottom a{color:#a5ada6;transition:.2s}
 .foot-bottom a:hover{color:var(--green)}
 
-/* =============== FAB / EMERGENCY =============== */
-.fab{
-  position:fixed;bottom:24px;right:24px;z-index:95;
-  background:var(--ink);color:#fff;padding:14px 22px;border-radius:99px;
-  display:flex;align-items:center;gap:10px;font-weight:700;font-size:.95rem;
-  box-shadow:var(--shadow-lg);
-  transition:.3s var(--ease);
-}
-.fab:hover{background:var(--green);color:var(--ink);transform:translateY(-3px) scale(1.04)}
-.fab svg{width:20px;height:20px}
-.fab .pulse{
-  position:absolute;top:8px;right:8px;width:10px;height:10px;border-radius:50%;background:#4caf50;
-  box-shadow:0 0 0 0 rgba(76,175,80,.6);animation:pulse 2s infinite;
-}
-@keyframes pulse{
-  0%{box-shadow:0 0 0 0 rgba(76,175,80,.6)}
-  70%{box-shadow:0 0 0 14px rgba(76,175,80,0)}
-  100%{box-shadow:0 0 0 0 rgba(76,175,80,0)}
-}
-
 /* =============== ANIMATIONS / REVEAL =============== */
 .reveal{opacity:0;transform:translateY(30px);transition:opacity .8s var(--ease),transform .8s var(--ease)}
 .reveal.in{opacity:1;transform:none}
@@ -488,7 +468,6 @@ footer{background:var(--ink);color:#cfd5cf;padding:70px 0 30px;position:relative
   .hero-card-2{width:240px;right:auto;left:30px;top:170px}
   .hero-card-3{width:240px;left:auto;right:0}
   .form-card{padding:24px}
-  .fab{bottom:14px;right:14px;padding:12px 18px;font-size:.9rem}
 }
 
 /* Mobile menu drawer */
@@ -513,15 +492,10 @@ footer{background:var(--ink);color:#cfd5cf;padding:70px 0 30px;position:relative
 <header class="nav" id="nav">
   <div class="container nav-inner">
     <a href="#" class="brand" aria-label="Elektro Hruška – domů">
-      <!-- Inline SVG logo -->
       <svg class="brand-mark" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-        <!-- stem -->
         <path d="M52 10 Q56 4 62 8" stroke="#1E2520" stroke-width="3.5" fill="none" stroke-linecap="round"/>
-        <!-- leaf -->
         <path d="M60 9 Q72 6 70 18 Q60 16 60 9 Z" fill="#1E2520"/>
-        <!-- pear body -->
         <path d="M50 15 Q34 18 30 38 Q22 50 28 66 Q34 88 52 88 Q70 88 76 66 Q82 50 74 38 Q70 18 54 15 Z" fill="#A4C73C" stroke="#1E2520" stroke-width="3"/>
-        <!-- lightning bolt -->
         <path d="M52 30 L40 56 L50 56 L46 74 L60 48 L50 48 L54 30 Z" fill="#FFFFFF" stroke="#1E2520" stroke-width="2.5" stroke-linejoin="round"/>
       </svg>
       <div class="brand-name">
@@ -538,9 +512,9 @@ footer{background:var(--ink);color:#cfd5cf;padding:70px 0 30px;position:relative
       <a href="#faq">FAQ</a>
     </nav>
     <div class="nav-cta">
-      <a href="tel:+420776123456" class="nav-phone" aria-label="Zavolat">
+      <a href="tel:+420728083501" class="nav-phone" aria-label="Zavolat">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-        776 123 456
+        728 083 501
       </a>
       <a href="#kontakt" class="btn btn-secondary">Nezávazná poptávka</a>
       <button class="menu-toggle" aria-label="Otevřít menu" id="menuOpen">
@@ -556,15 +530,15 @@ footer{background:var(--ink);color:#cfd5cf;padding:70px 0 30px;position:relative
   <button class="drawer-close" id="menuClose" aria-label="Zavřít menu">
     <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
   </button>
-  <a href="#sluzby" class="dr-link">Služby</a>
-  <a href="#proc-my" class="dr-link">Proč nás</a>
-  <a href="#postup" class="dr-link">Postup</a>
-  <a href="#reference" class="dr-link">Reference</a>
-  <a href="#o-nas" class="dr-link">O nás</a>
-  <a href="#faq" class="dr-link">FAQ</a>
-  <a href="#kontakt" class="dr-link">Kontakt</a>
+  <a href="#sluzby">Služby</a>
+  <a href="#proc-my">Proč nás</a>
+  <a href="#postup">Postup</a>
+  <a href="#reference">Reference</a>
+  <a href="#o-nas">O nás</a>
+  <a href="#faq">FAQ</a>
+  <a href="#kontakt">Kontakt</a>
   <div class="drawer-cta">
-    <a href="tel:+420776123456" class="btn btn-ghost" style="justify-content:center">📞 776 123 456</a>
+    <a href="tel:+420728083501" class="btn btn-ghost" style="justify-content:center">📞 728 083 501</a>
     <a href="#kontakt" class="btn btn-secondary" style="justify-content:center">Nezávazná poptávka</a>
   </div>
 </aside>
@@ -576,7 +550,7 @@ footer{background:var(--ink);color:#cfd5cf;padding:70px 0 30px;position:relative
       <div class="reveal">
         <span class="eyebrow">Elektroinstalace · Zabezpečení · Revize</span>
         <h1>Spolehlivý elektrikář, který <span class="accent">dotáhne věci do konce</span>.</h1>
-        <p class="lead">Jsem Petr Hruška a pod značkou <strong>Elektro Hruška</strong> řeším kompletní elektroinstalace, zabezpečovací a kamerové systémy, revize a hromosvody. Pro rodinné domy, byty, kanceláře i průmysl – v Praze a celém Středočeském kraji. Čistá práce, jasná cena, dohodnutý termín.</p>
+        <p class="lead">Jsem Lukáš Hruška a pod značkou <strong>Elektro Hruška</strong> řeším kompletní elektroinstalace, zabezpečovací a kamerové systémy, revize a hromosvody. Pro rodinné domy, byty, kanceláře i průmysl – v Ústí nad Labem a celém Ústeckém kraji.</p>
         <div class="hero-actions">
           <a href="#kontakt" class="btn btn-primary">
             Nezávazná poptávka
@@ -587,19 +561,15 @@ footer{background:var(--ink);color:#cfd5cf;padding:70px 0 30px;position:relative
         <div class="hero-trust">
           <div class="trust-item">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
-            Vyhláška 50 §8 / TIČR
+            Revizní technik TIČR §9
           </div>
           <div class="trust-item">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
-            Pojištění odpovědnosti 5 mil. Kč
+            Pojištění 5 mil. Kč
           </div>
           <div class="trust-item">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
             Záruka 5 let na práci
-          </div>
-          <div class="trust-item">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
-            Doprava do 30 km zdarma
           </div>
         </div>
       </div>
@@ -655,8 +625,8 @@ footer{background:var(--ink);color:#cfd5cf;padding:70px 0 30px;position:relative
         <div class="stat-label">spokojených zákazníků</div>
       </div>
       <div class="reveal">
-        <div class="stat-num">24/7</div>
-        <div class="stat-label">pohotovost pro klienty</div>
+        <div class="stat-num">5 let</div>
+        <div class="stat-label">záruka na všechny práce</div>
       </div>
     </div>
   </div>
@@ -666,9 +636,9 @@ footer{background:var(--ink);color:#cfd5cf;padding:70px 0 30px;position:relative
 <section id="sluzby">
   <div class="container">
     <div class="section-head reveal">
-      <span class="eyebrow">Kompletní portfolio služeb</span>
+      <span class="eyebrow">Co pro vás dělám</span>
       <h2>Vše kolem elektřiny pod jednou střechou</h2>
-      <p>Od první konzultace přes projekt a samotnou realizaci až po revizní zprávu a servis. Nemusíte koordinovat čtyři firmy – stačí jedna.</p>
+      <p>Od první konzultace přes realizaci až po revizní zprávu. Nemusíte koordinovat několik firem – stačí jedna.</p>
     </div>
 
     <div class="services-grid">
@@ -677,13 +647,12 @@ footer{background:var(--ink);color:#cfd5cf;padding:70px 0 30px;position:relative
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
         </div>
         <h3>Elektroinstalace</h3>
-        <p>Kompletní silnoproudé rozvody pro novostavby, rekonstrukce bytů i komerčních prostor. Pracuji podle projektu i bez něj.</p>
+        <p>Silnoproudé rozvody pro novostavby, rekonstrukce bytů i komerčních prostor.</p>
         <ul class="service-list">
           <li>Nové elektroinstalace na klíč</li>
           <li>Rekonstrukce hliníkových rozvodů</li>
-          <li>Rozvaděče, jističe, FI proudové chrániče</li>
-          <li>Osvětlení – návrh, zapojení, stmívače</li>
-          <li>Zásuvky 230/400 V, průmyslové vývody</li>
+          <li>Rozvaděče, jističe, FI chrániče</li>
+          <li>Osvětlení, zásuvky 230/400 V</li>
         </ul>
       </article>
 
@@ -692,13 +661,12 @@ footer{background:var(--ink);color:#cfd5cf;padding:70px 0 30px;position:relative
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg>
         </div>
         <h3>Zabezpečovací systémy</h3>
-        <p>Profesionální EZS od značek Jablotron, Ajax a Paradox. Návrh systému přesně na míru vašemu objektu – byt, dům, firma.</p>
+        <p>EZS od značek Jablotron, Ajax a Paradox – návrh přesně na míru vašemu objektu.</p>
         <ul class="service-list">
           <li>Bezdrátové i drátové alarmy</li>
-          <li>Magnetické kontakty oken a dveří</li>
           <li>Pohybové a požární detektory</li>
           <li>Napojení na PCO a SMS hlášení</li>
-          <li>Servis stávajících systémů</li>
+          <li>Přístupové systémy na čip</li>
         </ul>
       </article>
 
@@ -707,13 +675,12 @@ footer{background:var(--ink);color:#cfd5cf;padding:70px 0 30px;position:relative
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 7l-7 5 7 5V7z"/><rect x="1" y="5" width="15" height="14" rx="2" ry="2"/></svg>
         </div>
         <h3>Kamerové systémy</h3>
-        <p>IP kamery Dahua, Hikvision a Reolink s vysokým rozlišením a chytrým rozpoznáváním pohybu. Přístup z mobilu kdekoliv na světě.</p>
+        <p>IP kamery Dahua a Hikvision s vysokým rozlišením a přístupem z mobilu odkudkoliv.</p>
         <ul class="service-list">
           <li>Venkovní i vnitřní IP kamery 4K</li>
-          <li>Záznamová zařízení NVR s úložištěm</li>
-          <li>Aplikace pro chytrý telefon</li>
-          <li>Detekce osob, vozidel a obličejů</li>
-          <li>Noční vidění a termovize</li>
+          <li>NVR záznamová zařízení</li>
+          <li>Detekce osob a vozidel</li>
+          <li>Noční vidění</li>
         </ul>
       </article>
 
@@ -722,13 +689,12 @@ footer{background:var(--ink);color:#cfd5cf;padding:70px 0 30px;position:relative
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
         </div>
         <h3>Revize elektro</h3>
-        <p>Revizní technik s platným osvědčením TIČR. Vystavím revizní zprávu, kterou bez problému přijme pojišťovna i stavební úřad.</p>
+        <p>Platné osvědčení TIČR §9. Revizní zpráva pro pojišťovny i stavební úřady.</p>
         <ul class="service-list">
           <li>Výchozí revize novostaveb</li>
-          <li>Periodické revize bytů, domů, firem</li>
+          <li>Periodické revize bytů a firem</li>
           <li>Revize hromosvodů a uzemnění</li>
-          <li>Revize spotřebičů a elektronářadí</li>
-          <li>Termovizní měření rozvaděčů</li>
+          <li>Revize spotřebičů a nářadí</li>
         </ul>
       </article>
 
@@ -737,43 +703,12 @@ footer{background:var(--ink);color:#cfd5cf;padding:70px 0 30px;position:relative
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 22 L12 2 L22 22"/><line x1="6" y1="14" x2="18" y2="14"/></svg>
         </div>
         <h3>Hromosvody</h3>
-        <p>Návrh, montáž i revize hromosvodů a uzemnění podle normy ČSN EN 62305. Aktivní i klasická ochrana před bleskem.</p>
+        <p>Návrh, montáž i revize hromosvodů a uzemnění podle ČSN EN 62305.</p>
         <ul class="service-list">
           <li>Klasické a aktivní hromosvody</li>
           <li>Měření zemního odporu</li>
           <li>Přepěťové ochrany rozvaděčů</li>
-          <li>Doplnění chybějících svodů</li>
-          <li>Pravidelné revize 1× za 4 roky</li>
-        </ul>
-      </article>
-
-      <article class="service-card reveal">
-        <div class="service-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.55a11 11 0 0 1 14.08 0"/><path d="M1.42 9a16 16 0 0 1 21.16 0"/><path d="M8.53 16.11a6 6 0 0 1 6.95 0"/><line x1="12" y1="20" x2="12.01" y2="20"/></svg>
-        </div>
-        <h3>Datové a slaboproudé rozvody</h3>
-        <p>Strukturovaná kabeláž pro kancelář i chytrou domácnost. Cat 6/6A, optické trasy, Wi-Fi pokrytí celé budovy.</p>
-        <ul class="service-list">
-          <li>UTP/STP rozvody Cat 5e–7</li>
-          <li>Optické trasy a svařování vláken</li>
-          <li>Domácí Wi-Fi mesh systémy</li>
-          <li>Telefonní a anténní rozvody</li>
-          <li>Domovní telefony a videovrátné</li>
-        </ul>
-      </article>
-
-      <article class="service-card reveal">
-        <div class="service-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
-        </div>
-        <h3>Přístupové systémy</h3>
-        <p>Otevírání čipem, kódem nebo otiskem prstu. Elektronické zámky, branové pohony, domovní telefony Aiphone, 2N.</p>
-        <ul class="service-list">
-          <li>Čipové a kódové zámky</li>
-          <li>Biometrické přístupy</li>
-          <li>Branové a vratové pohony</li>
-          <li>IP videotelefony 2N</li>
-          <li>Docházkové systémy</li>
+          <li>Pravidelné revize</li>
         </ul>
       </article>
 
@@ -781,29 +716,13 @@ footer{background:var(--ink);color:#cfd5cf;padding:70px 0 30px;position:relative
         <div class="service-icon">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><path d="M9 22V12h6v10"/></svg>
         </div>
-        <h3>Chytrá domácnost</h3>
-        <p>Loxone, Shelly, Tuya – integruji rozsvícení, vytápění, žaluzie i bezpečnost do jedné aplikace. Bez měsíčních poplatků.</p>
+        <h3>Chytrá domácnost & data</h3>
+        <p>Loxone, Shelly a strukturovaná kabeláž – jedno prostředí pro celý dům.</p>
         <ul class="service-list">
-          <li>Návrh scénářů a automatizací</li>
+          <li>Automatizace osvětlení a vytápění</li>
           <li>Hlasové ovládání Alexa / Google</li>
-          <li>Inteligentní termostaty</li>
-          <li>Stmívání a barevné scény</li>
-          <li>Ovládání odkudkoliv</li>
-        </ul>
-      </article>
-
-      <article class="service-card reveal">
-        <div class="service-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-        </div>
-        <h3>Servis 24/7 a havárie</h3>
-        <p>Pohotovostní výjezdy do 90 minut po celé Praze. Když přestane jít elektřina v sobotu v noci, zvedám telefon i tehdy.</p>
-        <ul class="service-list">
-          <li>Výjezd do 90 minut v Praze</li>
-          <li>Diagnostika poruch</li>
-          <li>Výměna jističů a chráničů</li>
-          <li>Vyhledání zkratu termokamerou</li>
-          <li>Provizorní zapojení</li>
+          <li>UTP/optické rozvody, Wi-Fi mesh</li>
+          <li>Domovní telefony a videovrátné</li>
         </ul>
       </article>
     </div>
@@ -837,7 +756,7 @@ footer{background:var(--ink);color:#cfd5cf;padding:70px 0 30px;position:relative
       <div class="reveal">
         <span class="eyebrow">Proč si vybrat Elektro Hruška</span>
         <h2>Jedna firma. Jeden člověk. Žádné výmluvy.</h2>
-        <p class="lead">Nepracuji s pomocníky, kteří dělají dnes elektriku a zítra dlažbu. Každou zakázku vedu osobně od první návštěvy po předání. Když řeknu, že to bude do pátku hotovo, tak to do pátku hotovo bude.</p>
+        <p class="lead">Pracuji sám, bez týmu „pomocníků". Každou zakázku vedu osobně od první návštěvy po předání. Když řeknu, že to bude do pátku hotovo, tak to do pátku hotovo bude.</p>
 
         <div class="benefits">
           <div class="benefit">
@@ -846,11 +765,7 @@ footer{background:var(--ink);color:#cfd5cf;padding:70px 0 30px;position:relative
           </div>
           <div class="benefit">
             <div class="benefit-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg></div>
-            <div><h4>Férová cena</h4><p>Cenová nabídka zdarma do 24 hodin. Žádné skryté položky ani „překvapení" na faktuře.</p></div>
-          </div>
-          <div class="benefit">
-            <div class="benefit-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg></div>
-            <div><h4>Čistá práce</h4><p>Po skončení uklidím a vyhodím obaly. Vrátím vám byt v lepším stavu, než byl.</p></div>
+            <div><h4>Férová cena</h4><p>Cenová nabídka zdarma do 24 hodin. Žádné skryté položky na faktuře.</p></div>
           </div>
           <div class="benefit">
             <div class="benefit-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"/></svg></div>
@@ -859,10 +774,6 @@ footer{background:var(--ink);color:#cfd5cf;padding:70px 0 30px;position:relative
           <div class="benefit">
             <div class="benefit-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="3 6 5 6 21 6"/><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></svg></div>
             <div><h4>Jen ověřené značky</h4><p>Jablotron, Schneider, ABB, Hager, Dahua, Loxone – materiál, který vydrží.</p></div>
-          </div>
-          <div class="benefit">
-            <div class="benefit-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg></div>
-            <div><h4>Pojištěno na 5 mil. Kč</h4><p>Případnou škodu kryje pojištění profesní odpovědnosti. Spíte klidně.</p></div>
           </div>
         </div>
       </div>
@@ -876,7 +787,6 @@ footer{background:var(--ink);color:#cfd5cf;padding:70px 0 30px;position:relative
     <div class="section-head reveal">
       <span class="eyebrow">Jak spolupráce probíhá</span>
       <h2>Od telefonátu po hotovou práci ve 4 krocích</h2>
-      <p>Žádné komplikace. Jasný postup, který znáte předem.</p>
     </div>
 
     <div class="process-grid">
@@ -885,22 +795,22 @@ footer{background:var(--ink);color:#cfd5cf;padding:70px 0 30px;position:relative
       <div class="process-step reveal">
         <div class="step-num">1</div>
         <h3>Poptávka</h3>
-        <p>Zavoláte, napíšete nebo vyplníte formulář. Ozvu se do 24 hodin a domluvíme termín prohlídky.</p>
+        <p>Zavoláte nebo napíšete. Ozvu se do 24 hodin a domluvíme termín prohlídky.</p>
       </div>
       <div class="process-step reveal">
         <div class="step-num">2</div>
         <h3>Návrh & cena</h3>
-        <p>Přijedu na místo, navrhneme řešení a do 3 dnů pošlu závaznou cenovou nabídku zdarma.</p>
+        <p>Přijedu na místo a do 3 dnů pošlu závaznou cenovou nabídku zdarma.</p>
       </div>
       <div class="process-step reveal">
         <div class="step-num">3</div>
         <h3>Realizace</h3>
-        <p>Po odsouhlasení dorazíme v dohodnutém termínu a vše odvedeme čistě, rychle a podle norem.</p>
+        <p>Po odsouhlasení dorazíme v dohodnutém termínu a vše odvedeme podle norem.</p>
       </div>
       <div class="process-step reveal">
         <div class="step-num">4</div>
         <h3>Předání & revize</h3>
-        <p>Předávám hotovou práci, revizní zprávu, návody a 5letou záruku. Začíná servisní podpora.</p>
+        <p>Hotová práce, revizní zpráva, návody a 5letá záruka.</p>
       </div>
     </div>
   </div>
@@ -912,7 +822,7 @@ footer{background:var(--ink);color:#cfd5cf;padding:70px 0 30px;position:relative
     <div class="section-head reveal">
       <span class="eyebrow">Co říkají zákazníci</span>
       <h2>Reference, na kterých si zakládám</h2>
-      <p>Více než 90 % zakázek mi přichází na doporučení od stávajících klientů. Tady jsou některé z nich.</p>
+      <p>Více než 90 % zakázek mi přichází na doporučení od stávajících klientů.</p>
     </div>
 
     <div class="testimonials">
@@ -923,7 +833,7 @@ footer{background:var(--ink);color:#cfd5cf;padding:70px 0 30px;position:relative
           <div class="avatar">JN</div>
           <div>
             <strong>Jan Novák</strong>
-            <span>Rodinný dům · Říčany</span>
+            <span>Rodinný dům · Trmice</span>
           </div>
         </div>
       </article>
@@ -935,7 +845,7 @@ footer{background:var(--ink);color:#cfd5cf;padding:70px 0 30px;position:relative
           <div class="avatar">LP</div>
           <div>
             <strong>Lucie Procházková</strong>
-            <span>Byt 3+1 · Praha 6</span>
+            <span>Byt 3+1 · Ústí nad Labem</span>
           </div>
         </div>
       </article>
@@ -947,43 +857,7 @@ footer{background:var(--ink);color:#cfd5cf;padding:70px 0 30px;position:relative
           <div class="avatar">MK</div>
           <div>
             <strong>Martin Kratochvíl</strong>
-            <span>AutoServis · Kladno</span>
-          </div>
-        </div>
-      </article>
-
-      <article class="testimonial reveal">
-        <div class="stars">★★★★★</div>
-        <blockquote>„Volali jsme v sobotu večer kvůli vyhořelému jističi. Přijel za hodinu, problém vyřešil a ještě poradil, co s tím dlouhodobě. Tohle je profík."</blockquote>
-        <div class="testimonial-author">
-          <div class="avatar">JS</div>
-          <div>
-            <strong>Jakub Svoboda</strong>
-            <span>Byt 2+kk · Praha 4</span>
-          </div>
-        </div>
-      </article>
-
-      <article class="testimonial reveal">
-        <div class="stars">★★★★★</div>
-        <blockquote>„Nainstaloval nám Jablotron i kamery, vše hezky propojené v jedné aplikaci. Vysvětlil každý detail, naučil nás obsluhu. Bez kompromisů."</blockquote>
-        <div class="testimonial-author">
-          <div class="avatar">VH</div>
-          <div>
-            <strong>Veronika Horáková</strong>
-            <span>Penzion · Beroun</span>
-          </div>
-        </div>
-      </article>
-
-      <article class="testimonial reveal">
-        <div class="stars">★★★★★</div>
-        <blockquote>„Spolupracujeme s panem Hruškou na revizích našich provozoven už několik let. Spolehlivý, rychlý, vždy s úsměvem. Skvělá komunikace."</blockquote>
-        <div class="testimonial-author">
-          <div class="avatar">PD</div>
-          <div>
-            <strong>Petr Dvořák</strong>
-            <span>Facility manager · Praha</span>
+            <span>AutoServis · Teplice</span>
           </div>
         </div>
       </article>
@@ -1007,7 +881,7 @@ footer{background:var(--ink);color:#cfd5cf;padding:70px 0 30px;position:relative
             <path d="M50 15 Q34 18 30 38 Q22 50 28 66 Q34 88 52 88 Q70 88 76 66 Q82 50 74 38 Q70 18 54 15 Z" fill="#A4C73C" stroke="currentColor" stroke-width="3"/>
             <path d="M52 30 L40 56 L50 56 L46 74 L60 48 L50 48 L54 30 Z" fill="#FFFFFF" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
           </svg>
-          <h4>Petr Hruška</h4>
+          <h4>Lukáš Hruška</h4>
           <p>Elektrotechnik · Revizní technik · Zakladatel</p>
         </div>
       </div>
@@ -1016,9 +890,8 @@ footer{background:var(--ink);color:#cfd5cf;padding:70px 0 30px;position:relative
         <span class="eyebrow">O nás</span>
         <h2>Řemeslo, které dělám rád a poctivě</h2>
         <div class="about-text">
-          <p>Elektrice se věnuji od roku 2010, kdy jsem dokončil průmyslovku a začal pracovat pro velkou stavební firmu. Po šesti letech jsem si řekl, že chci pracovat sám – bez korporátních nesmyslů, bez plánování práce přes tři vedoucí, bez „přijdeme někdy v úterý mezi devátou a čtvrtou".</p>
-          <p>Za posledních 15 let jsem zrealizoval přes 420 zakázek – od kompletních elektroinstalací rodinných domů po servis výrobních hal. Mám platné osvědčení revizního technika §9 a každoročně si rozšiřuju kvalifikaci o nové technologie – chytré domácnosti, IP zabezpečení, fotovoltaiku.</p>
-          <p>Pracuji sám, bez týmu „pomocníků". Když si u mě objednáte zakázku, přijedu já. Když budete potřebovat za rok poradit, zvednu telefon zase já. To je celé tajemství.</p>
+          <p>Elektrice se věnuji od roku 2010. Za 15 let jsem zrealizoval přes 420 zakázek – od kompletních elektroinstalací rodinných domů po servis výrobních hal. Mám platné osvědčení revizního technika §9 a každoročně si rozšiřuji kvalifikaci o nové technologie.</p>
+          <p>Pracuji sám, bez týmu „pomocníků". Když si u mě objednáte zakázku, přijedu já. Když budete za rok potřebovat poradit, zvednu telefon zase já. To je celé tajemství.</p>
         </div>
 
         <div class="about-features">
@@ -1032,7 +905,7 @@ footer{background:var(--ink);color:#cfd5cf;padding:70px 0 30px;position:relative
           </div>
           <div class="about-feature">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
-            <div><strong>Tady doma, pro vás doma</strong><span>Lokální firma se sídlem v Praze – znám místní vyhlášky, dodavatele i revizory</span></div>
+            <div><strong>Tady doma, pro vás doma</strong><span>Lokální firma se sídlem v Ústí nad Labem – znám místní vyhlášky, dodavatele i revizory</span></div>
           </div>
         </div>
       </div>
@@ -1046,7 +919,6 @@ footer{background:var(--ink);color:#cfd5cf;padding:70px 0 30px;position:relative
     <div class="section-head reveal">
       <span class="eyebrow">Často kladené otázky</span>
       <h2>Odpovědi, které vás zajímají</h2>
-      <p>Nenašli jste odpověď? Napište mi a do 24 hodin se ozvu.</p>
     </div>
 
     <div class="faq-list">
@@ -1055,15 +927,7 @@ footer{background:var(--ink);color:#cfd5cf;padding:70px 0 30px;position:relative
           Kolik stojí cenová nabídka a prohlídka?
           <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span>
         </button>
-        <div class="faq-a"><p>Prohlídka i cenová nabídka jsou zdarma a zcela nezávazné. Dopravu po Praze a do 30 km neúčtuji. Většinou stačí poslat foto a popis – orientační cenu pošlu obratem e-mailem.</p></div>
-      </div>
-
-      <div class="faq-item reveal">
-        <button class="faq-q">
-          Pracujete i o víkendech a večer?
-          <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span>
-        </button>
-        <div class="faq-a"><p>Standardní zakázky realizuji v pracovní dny 7:00–17:00. Pro firemní klienty rád domluvím i víkendovou realizaci, aby vás práce nezdržela. Havarijní výjezdy provádím 24/7.</p></div>
+        <div class="faq-a"><p>Prohlídka i cenová nabídka jsou zdarma a nezávazné. Dopravu po Ústí nad Labem a do 30 km neúčtuji. Většinou stačí poslat foto a popis – orientační cenu pošlu obratem e-mailem.</p></div>
       </div>
 
       <div class="faq-item reveal">
@@ -1071,7 +935,7 @@ footer{background:var(--ink);color:#cfd5cf;padding:70px 0 30px;position:relative
           Jak dlouho trvá kompletní elektroinstalace domu?
           <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span>
         </button>
-        <div class="faq-a"><p>U rodinného domu o velikosti 120–180 m² obvykle 3–5 týdnů včetně revize. Závisí na složitosti, počtu okruhů a tom, zda jde o novostavbu, nebo rekonstrukci. Konkrétní harmonogram dostanete s cenovou nabídkou.</p></div>
+        <div class="faq-a"><p>U rodinného domu o velikosti 120–180 m² obvykle 3–5 týdnů včetně revize. Konkrétní harmonogram dostanete s cenovou nabídkou.</p></div>
       </div>
 
       <div class="faq-item reveal">
@@ -1079,7 +943,7 @@ footer{background:var(--ink);color:#cfd5cf;padding:70px 0 30px;position:relative
           Vystavíte revizní zprávu, kterou přijme pojišťovna?
           <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span>
         </button>
-        <div class="faq-a"><p>Ano, mám platné osvědčení revizního technika TIČR §9 pro všechny napěťové soustavy a hromosvody. Revizní zprávu vystavím podle ČSN 33 1500 a 33 2000-6 v tištěné i digitální podobě – pojišťovny, stavební úřady i kolaudační komise ji přijímají bez problémů.</p></div>
+        <div class="faq-a"><p>Ano, mám platné osvědčení TIČR §9. Revizní zprávu vystavím podle ČSN 33 1500 a 33 2000-6 v tištěné i digitální podobě – pojišťovny i stavební úřady ji přijímají bez problémů.</p></div>
       </div>
 
       <div class="faq-item reveal">
@@ -1087,15 +951,7 @@ footer{background:var(--ink);color:#cfd5cf;padding:70px 0 30px;position:relative
           Jakou poskytujete záruku?
           <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span>
         </button>
-        <div class="faq-a"><p>Na provedené práce poskytuji prodlouženou záruku 5 let. Na materiál platí zákonná záruka 24 měsíců, případně delší podle podmínek výrobce (Jablotron, ABB, Schneider mají často 3 a více let).</p></div>
-      </div>
-
-      <div class="faq-item reveal">
-        <button class="faq-q">
-          Můžete propojit alarm, kamery a chytrou domácnost do jedné aplikace?
-          <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span>
-        </button>
-        <div class="faq-a"><p>Ano, jednou z nejčastěji řešených věcí je sjednocení několika systémů do jednoho prostředí. Nejčastěji používám MyJablotron, Ajax nebo Loxone, který umí integrovat prakticky cokoliv. Pak ovládáte vše z jedné mobilní aplikace – odkudkoliv.</p></div>
+        <div class="faq-a"><p>Na provedené práce poskytuji prodlouženou záruku 5 let. Na materiál platí zákonná záruka 24 měsíců, případně delší podle podmínek výrobce.</p></div>
       </div>
 
       <div class="faq-item reveal">
@@ -1103,7 +959,7 @@ footer{background:var(--ink);color:#cfd5cf;padding:70px 0 30px;position:relative
           Pracujete i mimo Prahu?
           <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span>
         </button>
-        <div class="faq-a"><p>Pracuji v Praze a celém Středočeském kraji. Dopravu do 30 km od Prahy neúčtuji, nad rámec si připočítávám 12 Kč/km. U větších zakázek nad 50 km cestu řešíme individuálně.</p></div>
+        <div class="faq-a"><p>Pracuji v Ústí nad Labem a celém Ústeckém kraji – Teplice, Děčín, Litoměřice, Most, Chomutov i okolí. Dopravu do 30 km od Ústí neúčtuji, nad rámec si připočítávám 12 Kč/km.</p></div>
       </div>
     </div>
   </div>
@@ -1115,17 +971,17 @@ footer{background:var(--ink);color:#cfd5cf;padding:70px 0 30px;position:relative
     <div class="cta-banner reveal">
       <div>
         <h2>Začněme spoluprací</h2>
-        <p>Pošlete poptávku, zavolejte nebo mi napište na WhatsApp. Reaguji do 24 hodin – často mnohem dřív. První konzultace je zdarma a nezávazná.</p>
+        <p>Pošlete poptávku, zavolejte nebo mi napište. Reaguji do 24 hodin – často mnohem dřív. První konzultace je zdarma.</p>
         <div class="cta-actions">
           <a href="#poptavka-form" class="btn btn-primary">Vyplnit poptávku</a>
           <a href="mailto:info@elektrohruska.cz" class="btn btn-ghost" style="background:#fff;border-color:#fff">info@elektrohruska.cz</a>
         </div>
       </div>
       <div class="cta-side">
-        <a href="tel:+420776123456" class="cta-phone">
+        <a href="tel:+420728083501" class="cta-phone">
           <span class="lbl">Volejte přímo</span>
-          <span class="num">776 123 456</span>
-          <span class="av">Po–Ne 7:00–22:00</span>
+          <span class="num">728 083 501</span>
+          <span class="av">Po–Pá 7:00–18:00</span>
         </a>
       </div>
     </div>
@@ -1137,9 +993,9 @@ footer{background:var(--ink);color:#cfd5cf;padding:70px 0 30px;position:relative
         <p class="lead">Pokud preferujete osobní setkání, rád za vámi přijedu. Konzultace na místě je vždy zdarma.</p>
 
         <div class="contact-list">
-          <a href="tel:+420776123456" class="contact-item">
+          <a href="tel:+420728083501" class="contact-item">
             <div class="contact-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div>
-            <div><strong>+420 776 123 456</strong><span>Petr Hruška – majitel</span><small>Po–Ne 7:00–22:00</small></div>
+            <div><strong>+420 728 083 501</strong><span>Lukáš Hruška – majitel</span><small>Po–Pá 7:00–18:00</small></div>
           </a>
           <a href="mailto:info@elektrohruska.cz" class="contact-item">
             <div class="contact-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
@@ -1147,15 +1003,7 @@ footer{background:var(--ink);color:#cfd5cf;padding:70px 0 30px;position:relative
           </a>
           <div class="contact-item">
             <div class="contact-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
-            <div><strong>Praha a Středočeský kraj</strong><span>Sídlo: Pod Hrází 12, Praha 4</span><small>Doprava do 30 km zdarma</small></div>
-          </div>
-          <div class="contact-item">
-            <div class="contact-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg></div>
-            <div><strong>WhatsApp + SMS</strong><span>+420 776 123 456</span><small>Pošlete foto závady, ozvu se zpět</small></div>
-          </div>
-          <div class="contact-item">
-            <div class="contact-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></div>
-            <div><strong>Fakturační údaje</strong><span>Elektro Hruška, IČO: 12 345 678</span><small>Plátce DPH</small></div>
+            <div><strong>Ústí nad Labem a Ústecký kraj</strong><span>Doprava do 30 km zdarma</span></div>
           </div>
         </div>
 
@@ -1163,13 +1011,12 @@ footer{background:var(--ink);color:#cfd5cf;padding:70px 0 30px;position:relative
           <a href="#" class="social-link" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 8H6v4h3v12h5V12h3.6l.4-4h-4V6c0-.9.2-1.5 1.5-1.5H18V1h-3.4C11.7 1 9 2.7 9 6.3V8z"/></svg></a>
           <a href="#" class="social-link" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
           <a href="#" class="social-link" aria-label="Google"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84A11 11 0 0 0 12 23z"/></svg></a>
-          <a href="#" class="social-link" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2zM4 2a2 2 0 1 1 0 4 2 2 0 0 1 0-4z"/></svg></a>
         </div>
       </div>
 
       <form id="poptavka-form" class="form-card reveal" onsubmit="handleSubmit(event)">
         <h3>Pošlete nezávaznou poptávku</h3>
-        <p class="sub">Vyplnění zabere 2 minuty. Ozvu se do 24 hodin s cenovým odhadem.</p>
+        <p class="sub">Vyplnění zabere 2 minuty. Ozvu se do 24 hodin.</p>
 
         <div class="form-row">
           <div class="field">
@@ -1178,7 +1025,7 @@ footer{background:var(--ink);color:#cfd5cf;padding:70px 0 30px;position:relative
           </div>
           <div class="field">
             <label>Telefon <span>*</span></label>
-            <input type="tel" required placeholder="+420 776 123 456" />
+            <input type="tel" required placeholder="+420 728 083 501" />
           </div>
         </div>
 
@@ -1198,7 +1045,6 @@ footer{background:var(--ink);color:#cfd5cf;padding:70px 0 30px;position:relative
               <option>Revize elektro</option>
               <option>Hromosvod</option>
               <option>Chytrá domácnost</option>
-              <option>Servis / havárie</option>
               <option>Jiné</option>
             </select>
           </div>
@@ -1207,14 +1053,14 @@ footer{background:var(--ink);color:#cfd5cf;padding:70px 0 30px;position:relative
         <div class="form-row">
           <div class="field field-full">
             <label>Lokalita zakázky</label>
-            <input type="text" placeholder="Např. Praha 4, Strašnice / Říčany" />
+            <input type="text" placeholder="Např. Ústí nad Labem / Teplice / Děčín" />
           </div>
         </div>
 
         <div class="form-row">
           <div class="field field-full">
             <label>Popis poptávky <span>*</span></label>
-            <textarea required placeholder="Stručně popište, co potřebujete. Pokud máte foto, můžete poslat na info@elektrohruska.cz."></textarea>
+            <textarea required placeholder="Stručně popište, co potřebujete."></textarea>
           </div>
         </div>
 
@@ -1250,7 +1096,7 @@ footer{background:var(--ink);color:#cfd5cf;padding:70px 0 30px;position:relative
             <span>Elektro · Zabezpečení · Revize</span>
           </div>
         </div>
-        <p>Spolehlivý jednočlenný řemeslník pro kompletní řešení elektroinstalací, zabezpečovacích systémů a revizí. Praha a Středočeský kraj. 15 let praxe.</p>
+        <p>Spolehlivý jednočlenný řemeslník pro elektroinstalace, zabezpečovací systémy a revize. Ústí nad Labem a Ústecký kraj. 15 let praxe.</p>
       </div>
 
       <div class="foot">
@@ -1262,7 +1108,6 @@ footer{background:var(--ink);color:#cfd5cf;padding:70px 0 30px;position:relative
           <li><a href="#sluzby">Revize</a></li>
           <li><a href="#sluzby">Hromosvody</a></li>
           <li><a href="#sluzby">Chytrá domácnost</a></li>
-          <li><a href="#sluzby">Servis 24/7</a></li>
         </ul>
       </div>
 
@@ -1282,7 +1127,7 @@ footer{background:var(--ink);color:#cfd5cf;padding:70px 0 30px;position:relative
         <h5>Kontakt</h5>
         <div class="foot-contact">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-          776 123 456
+          728 083 501
         </div>
         <div class="foot-contact">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
@@ -1290,36 +1135,24 @@ footer{background:var(--ink);color:#cfd5cf;padding:70px 0 30px;position:relative
         </div>
         <div class="foot-contact">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-          Pod Hrází 12, Praha 4
-        </div>
-        <div class="foot-contact" style="margin-top:14px">
-          <strong style="color:#fff;font-family:'Outfit',sans-serif;">IČO: 12 345 678</strong>
+          Ústí nad Labem a Ústecký kraj
         </div>
       </div>
     </div>
 
     <div class="foot-bottom">
-      <span>© 2026 Elektro Hruška – Petr Hruška. Všechna práva vyhrazena.</span>
-      <span><a href="#">Ochrana osobních údajů</a> · <a href="#">Cookies</a> · <a href="#">Obchodní podmínky</a></span>
+      <span>© 2026 Elektro Hruška – Lukáš Hruška. Všechna práva vyhrazena.</span>
+      <span><a href="#">Ochrana osobních údajů</a> · <a href="#">Cookies</a></span>
     </div>
   </div>
 </footer>
 
-<!-- Emergency FAB -->
-<a href="tel:+420776123456" class="fab" aria-label="Volat na pohotovost">
-  <span class="pulse"></span>
-  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-  Pohotovost 24/7
-</a>
-
 <script>
-// Nav scroll effect
 const nav=document.getElementById('nav');
 window.addEventListener('scroll',()=>{
   if(window.scrollY>20)nav.classList.add('scrolled');else nav.classList.remove('scrolled');
 });
 
-// Mobile drawer
 const drawer=document.getElementById('drawer');
 const overlay=document.getElementById('drawerOverlay');
 document.getElementById('menuOpen').addEventListener('click',()=>{drawer.classList.add('open');overlay.classList.add('open')});
@@ -1328,7 +1161,6 @@ overlay.addEventListener('click',closeDr);
 function closeDr(){drawer.classList.remove('open');overlay.classList.remove('open')}
 document.querySelectorAll('.drawer a').forEach(a=>a.addEventListener('click',closeDr));
 
-// FAQ accordion
 document.querySelectorAll('.faq-q').forEach(btn=>{
   btn.addEventListener('click',()=>{
     const item=btn.parentElement;
@@ -1338,7 +1170,6 @@ document.querySelectorAll('.faq-q').forEach(btn=>{
   });
 });
 
-// Reveal on scroll
 const observer=new IntersectionObserver((entries)=>{
   entries.forEach(e=>{
     if(e.isIntersecting){e.target.classList.add('in');observer.unobserve(e.target)}
@@ -1346,7 +1177,6 @@ const observer=new IntersectionObserver((entries)=>{
 },{threshold:.12,rootMargin:'0px 0px -50px 0px'});
 document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
 
-// Form submit (demo)
 function handleSubmit(e){
   e.preventDefault();
   const btn=e.target.querySelector('button[type=submit]');
