@@ -87,6 +87,8 @@ section{padding:clamp(64px,9vw,120px) 0;position:relative}
 .nav-inner{display:flex;align-items:center;justify-content:space-between;gap:20px}
 .brand{display:flex;align-items:center;gap:12px;font-family:'Outfit',sans-serif;font-weight:900;color:var(--ink);letter-spacing:-.02em}
 .brand-mark{width:46px;height:46px;flex-shrink:0}
+.brand-logo{height:50px;width:auto;display:block;transition:.3s var(--ease)}
+.nav.scrolled .brand-logo{height:42px}
 .brand-name{display:flex;flex-direction:column;line-height:.95;font-size:1.05rem}
 .brand-name b{font-size:1.15rem}
 .brand-name span{font-size:.7rem;color:var(--muted);font-weight:600;letter-spacing:.1em;text-transform:uppercase;margin-top:2px}
@@ -295,6 +297,7 @@ section{padding:clamp(64px,9vw,120px) 0;position:relative}
   width:75%;text-align:center;
 }
 .about-img-inner svg{width:160px;height:160px;margin:0 auto 20px;color:var(--green-dark)}
+.about-img-inner img{max-width:80%;height:auto;margin:0 auto 24px;display:block}
 .about-img-inner h4{font-family:'Outfit',sans-serif;font-size:1.4rem;color:var(--ink)}
 .about-img-inner p{font-size:.95rem;color:var(--text);margin:6px auto 0}
 .about-badge{
@@ -420,7 +423,8 @@ section{padding:clamp(64px,9vw,120px) 0;position:relative}
 /* =============== FOOTER =============== */
 footer{background:var(--ink);color:#cfd5cf;padding:70px 0 30px;position:relative;overflow:hidden}
 .foot-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:40px;margin-bottom:50px}
-.foot-brand{display:flex;align-items:center;gap:12px;margin-bottom:16px;color:#fff}
+.foot-brand{display:inline-flex;align-items:center;background:#fff;padding:14px 22px;border-radius:14px;margin-bottom:18px;box-shadow:0 8px 24px rgba(0,0,0,.2)}
+.foot-brand img{height:48px;width:auto;display:block}
 .foot-brand .brand-name{color:#fff}
 .foot-brand .brand-name span{color:var(--green)}
 .foot p{font-size:.92rem;color:#a5ada6}
@@ -492,16 +496,7 @@ footer{background:var(--ink);color:#cfd5cf;padding:70px 0 30px;position:relative
 <header class="nav" id="nav">
   <div class="container nav-inner">
     <a href="#" class="brand" aria-label="Elektro Hruška – domů">
-      <svg class="brand-mark" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-        <path d="M52 10 Q56 4 62 8" stroke="#1E2520" stroke-width="3.5" fill="none" stroke-linecap="round"/>
-        <path d="M60 9 Q72 6 70 18 Q60 16 60 9 Z" fill="#1E2520"/>
-        <path d="M50 15 Q34 18 30 38 Q22 50 28 66 Q34 88 52 88 Q70 88 76 66 Q82 50 74 38 Q70 18 54 15 Z" fill="#A4C73C" stroke="#1E2520" stroke-width="3"/>
-        <path d="M52 30 L40 56 L50 56 L46 74 L60 48 L50 48 L54 30 Z" fill="#FFFFFF" stroke="#1E2520" stroke-width="2.5" stroke-linejoin="round"/>
-      </svg>
-      <div class="brand-name">
-        <b>ELEKTRO</b>
-        <b>HRUŠKA</b>
-      </div>
+      <img src="logo_bg.png" alt="Elektro Hruška" class="brand-logo" />
     </a>
     <nav class="nav-menu" aria-label="Hlavní navigace">
       <a href="#sluzby">Služby</a>
@@ -875,12 +870,7 @@ footer{background:var(--ink);color:#cfd5cf;padding:70px 0 30px;position:relative
           15 let v oboru
         </div>
         <div class="about-img-inner">
-          <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-            <path d="M52 10 Q56 4 62 8" stroke="currentColor" stroke-width="3.5" fill="none" stroke-linecap="round"/>
-            <path d="M60 9 Q72 6 70 18 Q60 16 60 9 Z" fill="currentColor"/>
-            <path d="M50 15 Q34 18 30 38 Q22 50 28 66 Q34 88 52 88 Q70 88 76 66 Q82 50 74 38 Q70 18 54 15 Z" fill="#A4C73C" stroke="currentColor" stroke-width="3"/>
-            <path d="M52 30 L40 56 L50 56 L46 74 L60 48 L50 48 L54 30 Z" fill="#FFFFFF" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
-          </svg>
+          <img src="logo_bg.png" alt="Elektro Hruška" />
           <h4>Lukáš Hruška</h4>
           <p>Elektrotechnik · Revizní technik · Zakladatel</p>
         </div>
@@ -1084,17 +1074,7 @@ footer{background:var(--ink);color:#cfd5cf;padding:70px 0 30px;position:relative
     <div class="foot-grid">
       <div class="foot">
         <div class="foot-brand">
-          <svg class="brand-mark" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-            <path d="M52 10 Q56 4 62 8" stroke="#fff" stroke-width="3.5" fill="none" stroke-linecap="round"/>
-            <path d="M60 9 Q72 6 70 18 Q60 16 60 9 Z" fill="#fff"/>
-            <path d="M50 15 Q34 18 30 38 Q22 50 28 66 Q34 88 52 88 Q70 88 76 66 Q82 50 74 38 Q70 18 54 15 Z" fill="#A4C73C" stroke="#fff" stroke-width="3"/>
-            <path d="M52 30 L40 56 L50 56 L46 74 L60 48 L50 48 L54 30 Z" fill="#fff" stroke="#1E2520" stroke-width="2.5" stroke-linejoin="round"/>
-          </svg>
-          <div class="brand-name">
-            <b>ELEKTRO</b>
-            <b>HRUŠKA</b>
-            <span>Elektro · Zabezpečení · Revize</span>
-          </div>
+          <img src="logo_bg.png" alt="Elektro Hruška" />
         </div>
         <p>Spolehlivý jednočlenný řemeslník pro elektroinstalace, zabezpečovací systémy a revize. Ústí nad Labem a Ústecký kraj. 15 let praxe.</p>
       </div>
